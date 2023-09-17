@@ -10,7 +10,7 @@ for i in range(num_purchases):
 
 tax_costs = []
 def add_tax(purchases, sales_tax):
-    for cost in purchase_costs:
+    for cost in purchases:
         tax_costs.append(cost*(1.0+ sales_tax))
 
 add_tax(purchase_costs, tax)
