@@ -5,7 +5,7 @@ tax = float(input('Sales tax: '))
 names = []
 purchase_costs = []
 for i in range(num_purchases):
-    names.append(input('Name: '))
+    names.append(input('Customer: '))
     purchase_costs.append(float(input('Cost: ')))
 
 
